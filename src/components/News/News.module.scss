@@ -1,0 +1,15 @@
+.news {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 780px) {
+  .news {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+}
