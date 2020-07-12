@@ -1,0 +1,33 @@
+header {
+  position: relative;
+  background: red;
+  height: 280px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+
+  .tags {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+
+    div {
+      margin-right: 8px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  & .buttons {
+    position: relative;
+    top: 160px;
+    left: 30px;
+
+    & .button {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}

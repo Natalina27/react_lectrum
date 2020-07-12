@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top-color: lightgray;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding: 16px 34px 0;
+  font-family: Helvetica sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+
+  .controls {
+    display: flex;
+    width: 136px;
+    justify-content: space-between;
+  }
+}
